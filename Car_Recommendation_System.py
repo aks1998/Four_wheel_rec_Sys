@@ -31,7 +31,7 @@ if __name__ == '__main__':
 		next(reader)
 	with open('Spreadsheet.csv', newline='') as f:
 		reader = csv.reader(f)
-		next(reader)
+		
 		row_num = len(open("Spreadsheet.csv").readlines()) - 1
 		if t == 1:
 			for i in range(row_num):
